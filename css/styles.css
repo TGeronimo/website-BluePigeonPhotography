@@ -126,3 +126,13 @@ header nav ul li {
 #topButton:hover {
   background-color: #555;
 }
+
+
+/* OUR STORY */
+#our-story {
+  padding: 25px 0;
+}
+
+#our-story p {
+  text-align: justify;
+}
