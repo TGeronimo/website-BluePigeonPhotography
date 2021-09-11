@@ -58,6 +58,7 @@ header {
 
 header #company-logo {
   flex: 2; /* Takes 2 times more space than other elements in the header */
+  
 }
 
 header h1 a {
@@ -83,7 +84,7 @@ header nav ul li {
 /* HERO IMAGE */
 #hero-image {
   height: 100vh;
-  background: #000 url(../images/hero.jpg) no-repeat fixed bottom;
+  background: #000 url(../images/hero.jpg) no-repeat fixed center;
   background-size: cover;
   position: relative;
 }
@@ -125,6 +126,7 @@ header nav ul li {
 
 #topButton:hover {
   background-color: #555;
+  text-decoration: none;
 }
 
 
