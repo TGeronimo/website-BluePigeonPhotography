@@ -136,3 +136,27 @@ header nav ul li {
 #our-story p {
   text-align: justify;
 }
+
+/* GALLERY */
+#galery {
+  background-color: #333;
+  color: #fff;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.gallery-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  justify-content: space-evenly;
+}
+
+.gallety-item {
+  flex: 1;
+  flex-basis: 33%;
+}
+
+.gallery-description {
+  margin-bottom: 20px;
+}
