@@ -67,7 +67,7 @@ textarea {
 input,
 textarea,
 button {
-  border: 1px solid gray;
+  border: 1px solid #ccc;
 }
 
 button {
