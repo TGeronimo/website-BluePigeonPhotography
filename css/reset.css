@@ -1,0 +1,95 @@
+/* THIS IS A COMMENT */
+/* Box sizing */
+html {
+  box-sizing: border-box;
+}
+
+/* * all elements will have this properties, in every folder */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Body defaults */
+body {
+  min-resolution: 100vh; /* stands for the percentage of the screen size */
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Margins and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+li,
+p,
+pre,
+blockquote,
+figure,
+figcaption,
+hr,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Lists */
+ul {
+  list-style: none; /* Remove the bullets */
+}
+
+/* Forms */
+input,
+textarea,
+select,
+button {
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+/* stretchs all elements below to the size of its container */
+input[type='text'],
+input[type='email'],
+textarea {
+  width: 100%;
+}
+
+input,
+textarea,
+button {
+  border: 1px solid gray;
+}
+
+button {
+  padding: 0.75em 1em;
+  line-height: inherit;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+/* Media */
+img,
+svg,
+iframe,
+video,
+object,
+embed {
+  display: block;
+  max-width: 100%;
+}
+
+/* Tables */
+table {
+  table-layout: fixed;
+  width: 100%;
+}

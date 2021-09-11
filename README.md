@@ -5,8 +5,17 @@ This is repository contais the code used to build a website named "Blue Pigeon P
 
 The following APIs were used in the project:
 
-- https://picsum.photos/
-- https://mailthis.to/
-- https://zellwk.com/blog/css-reset/
+- [https://picsum.photos/]()
+- [https://mailthis.to/]()
+- [https://www.pexels.com/]()
+
+reset.css to reset any browser CSS predefined.
+
+CSS reset conventions:
+- [https://zellwk.com/blog/css-reset/]()
+
+Fonts _Raleway_ and _Rock Salt_ from:
+- [https://fonts.google.com/]()
+
 
 
