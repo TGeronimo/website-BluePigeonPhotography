@@ -108,7 +108,7 @@ header nav ul li {
 
 /* TOP BUTTON */
 #topButton {
-  /* display: none; */
+  display: none;
   position: fixed;
   bottom: 20px;
   right: 30px;
