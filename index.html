@@ -1,15 +1,212 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <title>Blue Pigeon Photography</title>
-    <link href="./css/reset.css" rel="stylesheet">
-    <link href="./css/styles.css" rel="stylesheet">
-    <script src="js/main.js"></script>
-</head>
+  <head>
+      <title>Blue Pigeon Photography</title>
+      <link href="./css/reset.css" rel="stylesheet">
+      <link href="./css/styles.css" rel="stylesheet">
+      <script src="js/main.js"></script>
+  </head>
 
-<body>
+  <body id="body">
+    <header>
+      <div class="header-container">
+        <div id="company-logo">
+          <h1>
+            <a href="./index.html">Blue Pigeon Photography</a>
+          </h1>
+        </div>
+          <nav class="menu-wrapper">
+            <ul id="main-menu">
+              <li class="menu-item">
+                <a href="#">Our Story</a>
+              </li>
+              <li class="menu-item">
+                <a href="#">Gallery</a>
+              </li>
+              <li class="menu-item">
+                <a href="#">Events</a>
+              </li>
+              <li class="menu-item">
+                <a href="#">Contact</a>
+              </li>
 
-</body>
+            </ul>
+          </nav>
+      </div>
+    </header>
+    <!-- HERO IMAGE SECTION -->
+    <div id="hero-image">
+      <div class="overlay">
+        <h2 class="tag-line">Capturing The Imagination</h2>
+      </div>
+    </div>
+    
+    <!-- BACK TO TOP BUTTON -->
+    <a href="#body" id="topButton" title="Go To Top">Top</a>
+    
+    <!-- OUR STORY SECTION -->
+    <section id="our-story">
+      <div class="container">
+        <h3>Our Story</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </section>
+    
+    <!-- GALLERY SECTION -->
+    <section id="galery">
+      <div class="container">
+        <h3>Gallery</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <div id="gallery-wrapper">
+          <div class="gallery-row">
+            <div class="gallery-item">
+              <div>
+                <img src="https://picsum.photos/id/491/300/200" alt="Gallery Item 1" />
+              </div>
+              <p>
+                Image Title
+              </p>
+            </div>
+            <div class="gallery-item">
+              <div>
+                <img src="https://picsum.photos/id/239/300/200" alt="Gallery Item 2" />
+              </div>
+              <p>
+                Image Title
+              </p>
+            </div>
+            <div class="gallery-item">
+              <div>
+                <img src="https://picsum.photos/id/443/300/200" alt="Gallery Item 3" />
+              </div>
+              <p>
+                Image Title
+              </p>
+            </div>
+
+          </div>
+          <div class="gallery-row">
+            <div class="gallery-item">
+              <div>
+                <img src="https://picsum.photos/id/299/300/200" alt="Gallery Item 4" />
+              </div>
+              <p>
+                Image Title
+              </p>
+            </div>
+            <div class="gallery-item">
+              <div>
+                <img src="https://picsum.photos/id/257/300/200" alt="Gallery Item 5" />
+              </div>
+              <p>
+                Image Title
+              </p>
+            </div>
+            <div class="gallery-item">
+              <div>
+                <img src="https://picsum.photos/id/56/300/200" alt="Gallery Item 6" />
+              </div>
+              <p>
+                Image Title
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+    
+    <!-- EVENTS SECTION -->
+    <section id="events">
+      <div class="container">
+        <h3>Upcoming Events</h3>
+        <table id="upcoming-events-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Event</th>
+              <th>Location</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>10/21/2021</td>
+              <td>Atlanta Gallery</td>
+              <td>Atlanta, GA</td>
+              <!-- If you want a particular table data have the length of 2 or more columns instead of just one, you can use the colspam="" attribute in <td> element just passing the number of columns do you wanna it to reach -->
+              <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</td>
+            </tr>
+            <tr>
+              <td>11/25/2021</td>
+              <td>New York Gallery</td>
+              <td>New York, NY</td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</td>
+            </tr>
+            <tr>
+              <td>12/24/2021</td>
+              <td>Los Angeles Gallery</td>
+              <td>Los Angeles, CA</td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </section>
+    
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <div class="container">
+        <h3>Contact Us</h3>
+        <p>
+          Please send any comments, questions, or feedback with the form below.
+        </p>
+        <!-- We're using the API from mailthis.to. Please visit website to learn how to use it -->
+        <form action="https://mailthis.to/thi.matheus@gmail.com" method="post"> 
+          <!-- method stands for the HTTP request you will be passing on -->
+          <fieldset>            
+            <input type="text" name="name" placeholder="Enter your name ...">
+            <input type="email" name="_replyto" placeholder="Enter your email ...">
+            <!-- <input type="submit" value="Send Email" placeholder="Enter your email ..."> -->
+            <textarea name="message" placeholder="Enter your message ..."></textarea>
+            <button type="submit" value="Send Email">Send</button>
+            <input type="hidden" name="_confirmation" value="Your Form has been submitted!">
+            <!-- Send button not working properly as it keep loading and a failure message appears from the API. I inserted type type="submit" value="Send Email" in button attributes as required by the API but cannot test it due to the server limitations. Try again after 1 hour . Also try to solve adding another input type as is in the API docs.
+            See the comments of the lesson 12 from the course https://www.udemy.com/course/build-a-web-page-with-html-css-and-javascript-from-scratch/learn/lecture/17914278#questions/15355892-->
+        </fieldset>
+        </form>
+      </div>
+    </section>
+    
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-container">
+        <nav class="menu-wrapper">
+          <ul id="footer-menu">
+            <li class="menu-item">
+              <a href="#">Privace Policy</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Legal</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Sponsor</a>
+            </li>
+          </ul>
+        </nav>
+        <div id="copyright">
+          <!-- &copy creates the copyright symbol -->
+          &copy: Copyright - Blue Pigeon Photography - All rights reserved
+        </div>
+      </div>
+    </footer>
+  </body>
 
 </html>
