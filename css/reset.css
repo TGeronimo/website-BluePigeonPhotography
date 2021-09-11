@@ -2,6 +2,7 @@
 /* Box sizing */
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /* * all elements will have this properties, in every folder */
@@ -14,7 +15,6 @@ html {
 /* Body defaults */
 body {
   min-resolution: 100vh; /* stands for the percentage of the screen size */
-  scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }

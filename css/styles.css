@@ -138,7 +138,7 @@ header nav ul li {
 }
 
 /* GALLERY */
-#galery {
+#gallery {
   background-color: #333;
   color: #fff;
   padding: 25px 0;
@@ -223,4 +223,30 @@ header nav ul li {
   background-color: #333;
   color: #fff;
   cursor: pointer;
+}
+
+/* FOOTER SECTION */
+footer {
+  background-color: #222;
+  position: relative;
+  bottom: 0;
+  height: 100px;
+}
+
+footer .menu-wrapper {
+  flex: 1;
+  line-height: 35px;
+  text-align: left;
+}
+
+footer nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 0 10px;
+  line-height: 100px;
+}
+
+footer #copyright {
+  color: #fff;
+  line-height: 100px;
 }
